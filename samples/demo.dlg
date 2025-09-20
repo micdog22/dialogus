@@ -1,0 +1,12 @@
+::intro
+"Olá, {playerName}! Bem-vindo à vila."
+? "Perguntar sobre a missão" -> quest
+? "Dizer tchau" -> end
+
+::quest
+"Você precisa coletar 3 cristais no bosque."
+set hasQuest = true
+goto end
+
+::end
+"Boa sorte!"

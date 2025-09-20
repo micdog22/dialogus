@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dialogus.Core", "src\Dialogus.Core\Dialogus.Core.csproj", "{734325C6-1E80-4F1B-88B3-86EEA029F711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dialogus.Cli", "src\Dialogus.Cli\Dialogus.Cli.csproj", "{FE8A0537-4251-45A4-9D43-0165353DC6D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dialogus.Tests", "tests\Dialogus.Tests\Dialogus.Tests.csproj", "{322BBF20-0199-4DCA-A7CD-1411D127E3E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{734325C6-1E80-4F1B-88B3-86EEA029F711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734325C6-1E80-4F1B-88B3-86EEA029F711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734325C6-1E80-4F1B-88B3-86EEA029F711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734325C6-1E80-4F1B-88B3-86EEA029F711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE8A0537-4251-45A4-9D43-0165353DC6D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE8A0537-4251-45A4-9D43-0165353DC6D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE8A0537-4251-45A4-9D43-0165353DC6D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE8A0537-4251-45A4-9D43-0165353DC6D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322BBF20-0199-4DCA-A7CD-1411D127E3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322BBF20-0199-4DCA-A7CD-1411D127E3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322BBF20-0199-4DCA-A7CD-1411D127E3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322BBF20-0199-4DCA-A7CD-1411D127E3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
